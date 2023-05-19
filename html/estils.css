@@ -1,0 +1,149 @@
+  body {
+  background-color:#E5E7E9;
+  margin:0;
+  padding:0;
+}
+#cabecera {
+  background-color:black;
+  height: 100px;
+  width: auto;
+
+}
+#logo {
+  background-color:;
+  height: 100px;
+  width: 200px;
+  background-image: url(img/logo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+}
+#menu{
+  background-color: ;
+  height: 100px;
+  width: 600px;
+  float: right;
+  margin-right: 30px;
+  color: white;
+}
+
+#menu li{
+  float: right;
+  list-style: none;
+  padding: 30px;
+
+}
+#imagen {
+  height: 800px;
+  width: auto;
+  background-color: ;
+  margin-top: 100px;
+  background-image: url(img/ensalada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#ralla {
+  height: 5px;
+  width: auto;
+  background-color: black;
+  margin-top: 100px;
+}
+#contenedor{
+  height:600px;
+  width: auto;
+  background-color: ;
+  margin-top: 100px;
+}
+#quadrados1{
+  height:400px;
+  width: 400px;
+  background-color: black;
+  padding: 30px;
+  margin: auto;
+  float: center;
+  text-align: center;
+  color: white;
+}
+#quadrados2{
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  padding: 30px;
+  float: left;
+  margin-top: -460px;
+  text-align: center;
+  margin-left: 150px;
+  color: white;
+
+
+
+}
+#quadrados3{
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  padding: 30px;
+  float: right;
+  margin-top: -460px;
+  text-align: center;
+  margin-right: 150px;
+  color: white;
+
+
+}
+
+#comidas {
+  height: 350px;
+  width: 400px;
+  background-color: green;
+  background-image: url(img/comida.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+}
+
+
+
+
+#desayunos{
+  height: 350px;
+  width: 400px;
+  background-color: green;
+  background-image: url(img/desayuno.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+
+}
+
+
+#cenas {
+  height: 350px;
+  width: 400px;
+  background-color: green;
+  background-image: url(img/cenas.jpg);
+  background-repeat: no-repeat;
+  background-size:  cover;
+
+
+
+
+}
+
+#menu li:hover {
+  color:red;
+}
+
+#contenedor p:hover {
+  color:red;
+}
+
+#imagen{
+  color: white;
+  font-size:70px;
+}
