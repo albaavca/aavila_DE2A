@@ -1,0 +1,102 @@
+body{
+    background-color: paleturquoise;
+}
+#contenedor {
+ height: 600px;
+ width: 250px;
+ margin: auto;
+}
+
+.redondas{
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    border-radius: 50%;
+   
+}
+
+#rojo{
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+#amarillo{
+    margin-bottom: 10px;
+    background-color:black;
+}
+
+#verde{
+    background-color: black;
+}
+
+#contenedorbolas {
+    width: 150px;
+    height: auto;
+    background-color: goldenrod;
+    margin: auto;
+    padding: 60px;
+    border-radius: 15px;
+    border: solid 4px black;  
+}
+
+@media  screen and (min-width: 320px) {
+    #rojo{
+      background-color: red;
+     
+      }
+  
+      #amarillo{
+        background-color:black;
+    
+        }
+  
+        #verde{
+          background-color:black;
+    
+          }
+    }
+  
+@media  screen and (min-width: 800px) {
+    #rojo{
+      background-color: black;
+    
+      }
+  
+      #amarillo{
+        background-color: orange;
+     
+        }
+  
+        #verde{
+          background-color:black;
+        
+          }
+          }
+  
+@media  screen and (min-width: 1068px) {
+ #rojo{
+  background-color: black;
+         
+      }
+          
+   #amarillo{
+   background-color: black;
+              
+        }
+          
+     #verde{
+     background-color: green;
+           
+          }
+        
+        }
+
+    #palo{
+        width: 20px;
+        height: 100%;
+        background-color: slategrey;
+        border: solid 4px black;  
+        margin-left:50%;
+        margin-right: 45%;
+
+    }
